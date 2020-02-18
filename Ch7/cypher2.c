@@ -11,7 +11,7 @@ int main(void) {
             putchar(ch);
         }
     }
-    putchar(ch);  // this ch explicitly is '\n'
+    putchar(ch); // this ch explicitly is '\n'
 
     return 0;
 }
