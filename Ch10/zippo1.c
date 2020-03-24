@@ -1,7 +1,7 @@
 // zippo[4][2] = {{2, 4}, {6, 8}, {1, 3}, {5, 7}}
-// zippo = 0x7ffee7adfd60,         zippo + 1 = 0x7ffee7adfd68
+// zippo    = 0x7ffee7adfd60,         zippo + 1 = 0x7ffee7adfd68
 // zippo[0] = 0x7ffee7adfd60,      zippo[0] + 1 = 0x7ffee7adfd64
-// *zippo = 0x7ffee7adfd60,        *zippo + 1 = 0x7ffee7adfd64
+// *zippo   = 0x7ffee7adfd60,        *zippo + 1 = 0x7ffee7adfd64
 // zippo[0][0] = 2
 // *zippo[0] = 2
 // **zippo = 2
