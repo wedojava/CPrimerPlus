@@ -3,4 +3,4 @@ project(CPrimerPlus C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CPrimerPlus Ch11/sort_str.c )
+add_executable(CPrimerPlus Ch11/test.c )
