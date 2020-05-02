@@ -6,8 +6,8 @@
 char *s_gets(char *st, int n);
 
 int main(void) {
-    char flower[SIZE];
-    char addon[] = "s smell like old shoes.";
+    char *flower = "";
+    char *addon = "s smell like old shoes.";
 
     puts("What is your favorite flower?");
     if (s_gets(flower, SIZE)) {

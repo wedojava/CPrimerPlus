@@ -3,4 +3,4 @@ project(CPrimerPlus C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CPrimerPlus Ch11/exercises/03.c )
+add_executable(CPrimerPlus Ch11/exercises/07.c )

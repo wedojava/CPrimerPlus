@@ -14,8 +14,16 @@ int main(void) {
         printf("Enter a character to search for:\n");
         ch = getchar();
         if (ch != '\n') {
+            while (getchar() != '\n') {  // ?
+                continue;
+            }
         }
+        char* contains = is_within(ch, str) ? "" : " not";
+        printf("\"%s\" does%s contain %c\n", str, contains, ch);
+        printf("Enter a string to search (empty line to quit): ");
+        get(str, LIM);
     }
+    puts("Bye");
 
     return 0;
 }
